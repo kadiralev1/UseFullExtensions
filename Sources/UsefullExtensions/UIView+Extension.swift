@@ -2,7 +2,7 @@ import UIKit
 
 extension UIView {
     
-    enum Direction {
+    public enum Direction {
         case leftToRight
         case topLeftToBottomRight
         
@@ -25,7 +25,7 @@ extension UIView {
         }
     }
     
-    func applyGradient(colors: [UIColor], direction: Direction) {
+    public func applyGradient(colors: [UIColor], direction: Direction) {
         let gradient = CAGradientLayer()
         gradient.colors = colors.map({$0.cgColor})
         gradient.startPoint = direction.startPoint
