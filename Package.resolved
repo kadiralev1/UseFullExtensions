@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "appswizzle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JakubMazur/AppSwizzle.git",
+      "state" : {
+        "revision" : "a0e585669ebfebcd4b81dabc96112bae1f9885d0",
+        "version" : "1.3.3"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "9dcaa4b333db437b0fbfaf453fad29069044a8b4",
+        "version" : "6.6.0"
+      }
+    }
+  ],
+  "version" : 2
+}
